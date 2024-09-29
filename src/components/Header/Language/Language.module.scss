@@ -1,0 +1,32 @@
+.language {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    color: white;
+   gap: 0.4rem;
+    cursor: pointer;
+    border: transparent 1.5px solid;
+    border-radius: 0.3rem;
+    &:hover {
+        border: rgb(255, 255, 255) 1.5px solid;
+    }
+}
+.language > p {
+    font-weight: 600;
+    color: white;
+}
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer > img {
+    width: 100%;
+    height: 100%;
+}
+.language:hover .dropDown {
+    opacity: 1;
+    visibility: visible;
+  }

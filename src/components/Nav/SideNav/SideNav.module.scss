@@ -1,0 +1,67 @@
+.sideNav {
+max-width: 365px;
+// overflow: hidden;
+width: 85%;
+height: 100vh;
+z-index: 1000;
+position: fixed;
+top: 0%;
+left: 0;
+background-color: white;
+transform-origin: left center;
+transform: translateX(-420px);
+transition: 0.5s;
+perspective: 1000;
+}
+// animation
+@keyframes moveSideBar {
+    0% {
+        transform: translateX(-420px);
+        z-index: 100;
+    }
+    100% {
+        transform: translateX(-0px);
+    }
+}
+.sidNavHeader {
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    padding-left: 30px;
+    gap: 10px;
+}
+.imgContainer {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+}
+.imgContainer > img {
+width: 100%;
+height: 100%;
+}
+.sidNavHeader > span {
+    font-size: 15px;
+    font-weight: 600;
+}
+/*Move sub container*/
+@keyframes moveSubContainer {
+    0% {
+      transform: translateX(420px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  /*Move main container in relation to sub container*/
+  @keyframes moveMainContainer {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-420px);
+    }
+  }

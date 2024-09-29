@@ -1,0 +1,34 @@
+.hoverEffect:hover {
+    color: rgb(185, 0, 0);
+  }
+.container {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(184, 186, 187, 0.459);
+}
+.slider {
+    width: 100%;
+    height: 700px;
+}
+
+.main {
+    margin-top: -470px;
+    width: 100%;
+    z-index: 100;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    .header {
+        width: 100%;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: white;
+    }
+}

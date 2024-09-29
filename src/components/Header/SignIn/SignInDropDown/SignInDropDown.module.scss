@@ -1,0 +1,106 @@
+// 
+.container {
+    position: absolute;
+    top: 100%; /* Ensures the dropdown appears just below the sign-in button */
+    left: -150%;
+    width: 500px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 110; /* Ensure dropdown is above other elements */
+    &::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        left: 60%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background-color: rgb(255, 255, 255);
+        z-index: 2;
+      }
+  }
+  
+  .BtnContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    gap: 0.4rem;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(199, 197, 197);
+  }
+  
+  .signInBtn {
+    width: 100%;
+    background-color: rgb(255, 195, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 195, 13);
+    transition: 0.4s;
+    &:hover {
+      background-color: rgb(184, 142, 17);
+      border: 1px solid rgb(184, 142, 17);
+    }
+  }
+  
+  .signInBtn > p {
+    width: 70%;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .newAccount > p {
+    font-size: 12px;
+  }
+  
+  .AccountHistory {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .AccountHistory h4 {
+    padding-top: 0.5rem;
+  }
+  
+  .YourList {
+    display: flex;
+    width: 50%;
+    gap: 0.5rem;
+    align-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    border-right: 1px solid rgb(199, 197, 197);
+  }
+  
+  .YourList > div > p {
+    &:hover {
+      color: rgb(228, 121, 17);
+    }
+  }
+  
+  .YourAccount {
+    padding: 0.3rem;
+    display: flex;
+    width: 50%;
+    gap: 0.5rem;
+    align-content: center;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  
+  .YourAccount > div > p {
+    &:hover {
+      color: rgb(228, 121, 17);
+    }
+  }
+  

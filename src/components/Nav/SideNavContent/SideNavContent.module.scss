@@ -1,0 +1,21 @@
+.sideNavContainer {
+     width: 100%;
+     height: 100%;
+     // position: absolutes;
+     overflow-y: scroll;
+}
+.sideNavContentHeader {
+     margin-top: 5px;
+     padding: 15px 0px 15px 25px;
+     font-size: 20px;
+     font-weight: bold;
+     color: #272727;
+}
+
+.sideNavContent {
+     padding: 15px 0px 15px 25px;
+     font-size: 15px;
+     &:hover {
+          background-color: #eaeded;
+     }
+}

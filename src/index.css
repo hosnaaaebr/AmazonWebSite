@@ -1,0 +1,38 @@
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "AmazonEmber";
+    src: url("./assets/font/AmazonFont.ttf");
+}
+body {
+    font-family:"AmazonEmber";
+}
+
+.container {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+  }
+.swiper-button-next , 
+.swiper-button-prev {
+    color: black;
+    cursor: pointer;
+    height: 230px;
+    padding: 20px 20px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    z-index: 20;
+    position: absolute;
+    top: 4%;
+    font-size: larger;
+    font-weight: bold;
+    &:hover {
+        border: 2px solid rgb(3, 3, 136);
+    }
+}

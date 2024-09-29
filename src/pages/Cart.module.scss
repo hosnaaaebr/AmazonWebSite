@@ -1,0 +1,63 @@
+.hoverEffects {
+    color: rgb(9, 64, 116);
+&:hover {
+    color: rgb(204, 1, 1);
+}
+  }
+.container{
+    background-color: rgb(218, 218, 218);
+    padding:30px;
+}
+.emtyCart{
+    background-color: white;
+    box-shadow: 0 0 3px 2px #bababb;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 400px;
+}
+.emtyCart > p {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: rgb(51,51,51);
+    
+}
+.aCon:hover {
+color: rgb(0, 0, 131);
+}
+.notEmty {
+    background-color: white;
+    box-shadow: 0 0 3px 2px #bababb;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 30px;
+}
+.notEmty > ul > li {
+    list-style-type: none;
+}
+.notEmty > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px 24px;
+}
+.selectedProduct {
+    display: flex;
+    gap: 32px;
+}
+.editing{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.editing > p {
+    color: rgb(9, 64, 116);
+    cursor: pointer;
+&:hover {
+    color: rgb(204, 1, 1);
+}
+}

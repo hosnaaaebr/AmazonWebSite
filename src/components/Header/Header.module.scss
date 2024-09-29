@@ -1,0 +1,90 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  gap: 10px;
+//   justify-content: space-between;
+  background-color : rgb(19 25 33);
+}
+.container div:hover {
+    border: 1px solid rgb(245, 229, 229)35, 226, 226;
+}
+.location {
+    display: flex;
+}
+.formContainer {
+    display: flex;
+    height: 3rem;
+}
+.searching {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent; 
+    border-radius: 0.3rem;
+}
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 55px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.amazonLogo {
+    transform: scale(0.8);
+}
+.imageContainer:hover > .amazonLogo {
+    transform: scale(0.85);
+}
+
+.inputStyle {
+    display: flex;
+    width: 500px;
+    height: 100%;
+    border:rgb(224, 208, 208)35, 226, 226 3px solid;
+    padding: 0.76rem;
+    outline: none;
+}
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0.55rem;
+    cursor: pointer;
+    background-color: #FDBA74;
+    border-radius: 0 0.2rem 0.2rem 0;
+    &:hover {
+        background-color: rgba(233, 233, 233, 0.664);
+    }
+
+}
+.searchIcon {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    display: inline;
+    background-color: transparent;
+}
+.returns {
+    display: flex;
+    height: 100%;
+    padding: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    &:hover {
+        border: 1px solid rgb(243, 243, 243);
+      }
+}
+.returns > h4 {
+    font-weight: 600;
+}

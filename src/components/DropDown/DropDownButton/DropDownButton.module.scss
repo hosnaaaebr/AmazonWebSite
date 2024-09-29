@@ -1,0 +1,36 @@
+.dropDownBtn {
+    display: flex;
+    height: 2.61rem;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    padding: 0.35rem 0.7rem;
+    width: fit-content;
+    background-color: rgb(166, 167, 167);
+    border: 3px solid transparent;
+    border-radius: 0.2rem 0 0 0.2rem;
+    cursor: pointer;
+    outline: none;
+    &:hover {
+        background-color: rgb(178, 180, 255);
+    }
+  }
+  
+.toggleIcon {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnOpen {
+    border-color: rgb(255, 96, 22); /* Only change the color, not the thickness */
+    
+    &:hover {
+      border-color: rgb(255, 96, 22);
+    }
+    
+    &:focus {
+      border-color: rgb(255, 96, 22);
+    }
+  }

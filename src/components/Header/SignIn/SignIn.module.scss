@@ -1,0 +1,34 @@
+// 
+.signInContainer {
+    position: relative; /* Ensure dropdown appears relative to this container */
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    &:hover {
+      border: 1px solid rgb(243, 243, 243);
+    }
+  }
+  
+  .makingAccount {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .makingAccount > span {
+    font-size: 14px;
+  }
+  .accountList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .makingAccount > span > strong {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  
+  

@@ -1,0 +1,17 @@
+.sideNavRow {
+display: flex;
+color: #5E5E5E;
+width: 100%;
+justify-content: space-between;
+padding: 15px 25px;
+cursor: pointer;
+&:hover {
+    background-color: #eaeded;
+}
+}
+.arrowRight {
+color: #8e9090;
+}
+.sideNavRow:hover .arrowRight {
+color: #111111;
+}

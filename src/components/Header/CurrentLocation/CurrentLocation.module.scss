@@ -1,0 +1,28 @@
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deliver {
+    color: rgb(168, 164, 164);
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unknown {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.imgLoc {
+    width: 27px;
+    height: 27px;
+}
+.liveLoc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

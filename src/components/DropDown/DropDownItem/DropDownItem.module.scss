@@ -1,0 +1,12 @@
+.dropDownItem {
+    width: 100%;
+    padding:1rem 0.3rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-bottom: rgb(199, 197, 197) 0.1rem solid;
+    background-color: white;
+    &:hover {
+        background-color: rgb(145, 142, 139);
+        
+    }
+}

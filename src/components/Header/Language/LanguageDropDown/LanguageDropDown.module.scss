@@ -1,0 +1,79 @@
+
+.dropDown {
+  position: absolute;
+  top: 13%;
+  color: rgb(41, 40, 40);
+  left: 59%;
+  font-size: 13px;
+  gap: 0.3rem;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: opacity 0.3s ease;
+  z-index: 110;
+  &::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 53%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: rgb(255, 255, 255);
+    z-index: 110;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.changeLanguage {
+  width: 100%;
+  z-index: 110;
+  border-bottom: #ccc 1px solid;
+}
+
+.changeLanguage input[type="radio"] {
+  margin-right: 5px;
+}
+
+.currencyBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: #ccc 1px solid;
+  gap: 0.5rem;
+}
+
+.currencies {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goToAmazon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.amazon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amazon > div {
+  font-size: small;
+}
+
+.amazon > a {
+  font-size: 14px;
+}

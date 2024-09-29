@@ -1,0 +1,25 @@
+
+.dropDownContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    max-height: 200px;
+    overflow-y: hidden; /* Initially hidden */
+    z-index: 1000;
+    opacity: 0;
+    border: rgb(209, 209, 209) 1px solid;
+    transform: translateY(-5%);
+    transition: transform 150ms ease-in-out, opacity 100ms ease-in-out;
+    pointer-events: none; /* Disable interaction when not open */
+  }
+  
+  
+  .openContent {
+    opacity: 1;
+    max-height: 200px;
+    overflow-y: scroll; /* Enable scrolling when open */
+    transform: translateY(0);
+    pointer-events: all; /* Re-enable interaction */
+  }
+  

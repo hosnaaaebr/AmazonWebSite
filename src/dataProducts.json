@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "title": "Acer",
+      "currency": "$",
+      "price": "9000",
+      "decimental": "99",
+      "beforeSale": "$10000",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
+      "rate": "1,752",
+      "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Facer.webp&w=1920&q=75",
+      "sale":"10000"
+    },
+    {
+      "id": 2,
+      "title": "IPhone",
+      "currency": "$",
+      "price": "1080",
+      "decimental": "99",
+      "beforeSale": "$1200",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
+      "rate": "1,752",
+      "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fiphone.png&w=1920&q=75",
+      "sale":"1001200"
+    },
+    {
+      "id": 3,
+      "title": "Mac",
+      "currency": "$",
+      "price": "22500",
+      "decimental": "99",
+      "beforeSale": "$25000",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
+      "rate": "1,752",
+      "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fmac.jpg&w=1920&q=75",
+      "sale":"25000"
+    },
+    {
+      "id": 4,
+      "title": "Samsung s22",
+      "currency": "$",
+      "price": "90",
+      "decimental": "99",
+      "beforeSale": "$100",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
+      "rate": "1,752",
+      "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fs22.jpg&w=1920&q=75",
+      "sale":"100"
+    },
+    {
+      "id": 5,
+      "title": "Iphone case",
+      "currency": "$",
+      "price": "45",
+      "decimental": "99",
+      "beforeSale": "$50",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
+      "rate": "1,752",
+      "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fcase.jpg&w=1920&q=75",
+      "sale":"50"
+    },
+    {
+      "id": 6,
+      "title": "Iphone case",
+      "currency": "$",
+      "price": "11304",
+      "decimental": "99",
+      "beforeSale": "$12560",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
+      "rate": "1,752",
+      "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fgrip.jpg&w=1920&q=75",
+      "sale":"12560"
+    }
+  ]
+  

@@ -1,0 +1,45 @@
+.navContainer {
+    display: flex;
+    // position: relative;
+    color: white;
+    padding: 0 5px;
+    gap: 1rem;
+    background-color: #232F3E;
+    font-weight: 500;
+}
+.navContainer > div {
+    cursor: pointer;
+}
+.navContainer > div > p {
+    padding:1rem;
+    &:hover {
+        border: rgb(255, 255, 255) 1.5px solid;
+        border-radius: 0.3rem;
+    }
+}
+.overlay {
+position: fixed;
+top: 0%;
+left: 0;
+width: 100%;
+height: 100vh;
+z-index: 50;
+background-color: rgba(0 ,0 ,0 , 0.7);
+border: 1px solid rgba(0 ,0 ,0 , 0.7);
+transition: 0.5s;
+perspective: 1000;
+}
+
+@keyframes show {
+    0% {
+opacity: 0;
+    }
+    100% {
+opacity: 1;
+
+}
+}
+a:link, a:visited , a:hover , a:active {
+    text-decoration: none;
+    color: black;
+}
