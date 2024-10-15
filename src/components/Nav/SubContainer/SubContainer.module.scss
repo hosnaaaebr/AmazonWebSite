@@ -1,27 +1,51 @@
+
 .subContainer {
-position: absolute;
-width: 100%;
-height: 100%;
-overflow-y: scroll;
-background-color: white;
-transform: translate(420px);
-}
-.subHeader{
-margin-top: 6px;
-display: flex;
-gap: 5px;
-padding: 15px 0px 15px 25px;
-font-weight: bold;
-color: #5E5E5E;
-&:hover {
-    background-color: #eaeded;
-    cursor: pointer;
-}
-}
-.arrowLeft {
-color: #8e9090;
-}
-.amazonMusic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    transform: translateX(420px); 
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0; 
+    visibility: hidden; 
+    animation: moveSubContainer;
+  }
+  
+  .subContainer.entering,
+  .subContainer.entered {
+    transform: translateX(0); 
+    opacity: 1; 
+    visibility: visible; 
+  }
+  
+  .subContainer.exiting,
+  .subContainer.exited {
+    transform: translateX(420px); 
+    opacity: 0; 
+    visibility: hidden;
+  }
+  
+  .subHeader {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    gap: 5px;
+    padding: 15px 0px 15px 25px;
+    font-weight: bold;
+    color: #554c4c;
+    border-bottom: 2px solid rgb(203,213,225);
+    &:hover {
+      background-color: #eaeded;
+      cursor: pointer;
+    }
+  }
+  
+  .arrowLeft {
+    color: #8e9090;
+  }
+  
+  .amazonMusic {
     display: flex;
     color: #5E5E5E;
     width: 100%;
@@ -29,12 +53,24 @@ color: #8e9090;
     padding: 15px 25px;
     cursor: pointer;
     &:hover {
-        background-color: #eaeded;
+      background-color: #eaeded;
     }
-    }
-    .arrowRight {
+  }
+  
+  .arrowRight {
     color: #8e9090;
-    }
-    .sideNavRow:hover .arrowRight {
+  }
+  
+  .sideNavRow:hover .arrowRight {
     color: #111111;
+  }
+  
+  @keyframes moveSubContainer {
+    from {
+      transform: translateX(420px); 
     }
+    to {
+      transform: translateX(0); 
+    }
+  }
+  

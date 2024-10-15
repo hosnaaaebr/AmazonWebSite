@@ -54,7 +54,7 @@ const Product = ({cart , addToCart}) => {
         </div>
         <div className={styles.contentContainer}>
           <h1 style={{ fontSize: "40px", fontWeight:"inherit" }}>{product.title}</h1>
-          <p style={{ fontSize: "24px", width: "640px", color: "black", fontWeight:"inherit" }}>
+          <p className={styles.contentP} style={{ fontSize: "24px", width: "640px", color: "black", fontWeight:"inherit" }}>
             {product.content}
           </p>
           <p className={styles.hoverEffect} style={{ cursor: "pointer" }}>
@@ -105,7 +105,7 @@ const Product = ({cart , addToCart}) => {
             <div className={styles.detailDrop} style={{fontSize:"14px", cursor:"pointer"}}>Detail<IoMdArrowDropdown /></div>
           </div>
           <p style={{fontSize:"14px"}}>Available at a lower price from <span className={styles.hoverEffect} style={{cursor:"pointer"}}>other sellers</span> that may not offer free Prime shipping.</p>
-          <div className={styles}style={{display:"flex" ,fontSize:"14px" , gap:"4px" ,cursor:'pointer'}}>
+          <div style={{display:"flex" ,fontSize:"14px" , gap:"4px" ,cursor:'pointer'}}>
             <div className={styles.saving}>Extra Savings</div>
             <p className={styles.hoverEffective}>Amazon Music offer with this purchase 1 Applicable Promotion <IoMdArrowDropdown /></p>
           </div>
@@ -192,7 +192,6 @@ const Product = ({cart , addToCart}) => {
             </ol>
             <div className={styles.seeMore} style={{ marginTop: "1rem" }}>
               <button onClick={toggleSeeMore} style={{ display: "flex", alignItems: "center" }}>
-              <IoMdArrowDropdown style={{ paddingTop: "3px", fontSize: "15px" }} />
               {seeMore ? "See less" : "See more"}
               </button>
             </div>

@@ -88,3 +88,46 @@
 .returns > h4 {
     font-weight: 600;
 }
+@media (min-width: 1296px) and (max-width: 1306px) {
+    .container {
+        gap : 4px;
+    }
+    .searching {
+        .inputStyle {
+            width: 350px;
+        }
+    }
+}
+@media (min-width: 1102px) and (max-width: 1296px) {
+    .container {
+        gap : 4px;
+    }
+    .searching {
+        .inputStyle {
+            width: 290px;
+        }
+    }
+}
+@media (min-width: 936px) and (max-width: 1102px) {
+    .container {
+        gap : 4px;
+    }
+    .searching {
+        .inputStyle {
+            width: 250px;
+        }
+    }
+}
+@media (min-width: 600px) and (max-width: 936px)  {
+    .container {
+        gap : 4px;
+    }
+    .searching {
+        .inputStyle {
+            width: 250px;
+        }
+    }
+    .returns {
+        display: none;
+    }
+}

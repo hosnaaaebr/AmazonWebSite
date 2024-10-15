@@ -10,7 +10,9 @@
       "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
       "rate": "1,752",
       "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Facer.webp&w=1920&q=75",
-      "sale":"10000"
+      "sale":"10000",
+      "styleName" :"0.5 litre work container",
+      "colorName" :"white"
     },
     {
       "id": 2,
@@ -23,7 +25,9 @@
       "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
       "rate": "1,752",
       "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fiphone.png&w=1920&q=75",
-      "sale":"1001200"
+      "sale":"1001200",
+      "styleName" :"0.5 litre work container",
+      "colorName" :"white"
     },
     {
       "id": 3,
@@ -36,7 +40,9 @@
       "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
       "rate": "1,752",
       "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fmac.jpg&w=1920&q=75",
-      "sale":"25000"
+      "sale":"25000",
+      "styleName" :"0.5 litre work container",
+      "colorName" :"white"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
       "rate": "1,752",
       "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fcase.jpg&w=1920&q=75",
-      "sale":"50"
+      "sale":"50",
+      "styleName" :"0.5 litre work container",
+      "colorName" :"white"
     },
     {
       "id": 6,
@@ -75,7 +83,9 @@
       "star": "https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Ficons%2Fstar.png&w=16&q=75",
       "rate": "1,752",
       "image":"https://ali-amazon.netlify.app/_next/image?url=%2Fimages%2Fproducts%2Fgrip.jpg&w=1920&q=75",
-      "sale":"12560"
+      "sale":"12560",
+      "styleName" :"0.5 litre work container",
+      "colorName" :"white"
     }
   ]
   

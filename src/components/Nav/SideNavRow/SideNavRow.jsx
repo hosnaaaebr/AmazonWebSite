@@ -11,7 +11,7 @@ const SideNavRow = (props) => {
       setSubContainerEntries(entries); // The entries to display in SubContainer
     }
   }
-    
+    console.log({text})
   return (
     <div className={styles.sideNavRow} onClick={() => entries && openRow()}>
        <div>{text}</div> 
